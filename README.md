@@ -1,2 +1,2 @@
-# Jumping-Dinasour
-Chrome Browser Offline Game On Tsinghua TCH-386EX Test Kit
+# Jumping-Dinosaur
+Implement Chrome browser offline game on tsinghua TCH-386EX Test Kit
