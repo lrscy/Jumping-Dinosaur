@@ -19,11 +19,11 @@ BIT_NUM    DB 01H, 02H, 04H, 08H, 10H, 20H, 40H, 80H                            
 JUMP       DB 0E1H, 81H, 87H, 81H, 81H, 0E1H, 81H, 81H, 0E1H, 81H, 87H, 81H, 81H, 0E1H, 81H, 81H ; REAL GROUND
 SCORE      DB 3FH, 06H, 5BH, 4FH, 66H, 6DH, 7DH, 07H, 7FH, 67H                                   ; DIG NUM SHOW 0 1 2 3 4 5 6 7 8 9
 FMUSIC     DW 1912, 1912, 1275, 1275, 1136, 1136, 1275, 1275, 1432, 1432, 1517, 1517, 1703, 1703, 1912, 1912
-LCD_TABLE1 DW 0D0A1H, 0D7E9H, 0B3C9H, 0D4B1H, 0A1C3H, 0A2B0H, 0A2B0H, 0A2B0H                     ; "–°◊È≥…‘±£∫"
-           DW 0A2B0H, 0C0EEH, 0C8F4H, 0C9ADH, 0A2B0H, 0A2B0H, 0A2B0H, 0A2B0H                     ; "¿Ó»Ù…≠"
-           DW 0A2B0H, 0C9DBH, 0E6C2H, 0A2B0H, 0A2B0H, 0A2B0H, 0A2B0H, 0A2B0H                     ; "…€Ê¬"
-           DW 0A2B0H, 0CBCEH, 0CAC0H, 0C6BDH, 0A2B0H, 0A2B0H, 0A2B0H, 0A2B0H, '$'                ; "ÀŒ ¿∆Ω"
-LCD_TABLE2 DW 0D1A7H, 0BAC5H, 0A1C3H, 0A2B0H, 0A2B0H, 0A2B0H, 0A2B0H, 0A2B0H                     ; "—ß∫≈£∫"
+LCD_TABLE1 DW 0D0A1H, 0D7E9H, 0B3C9H, 0D4B1H, 0A1C3H, 0A2B0H, 0A2B0H, 0A2B0H                     ; "Â∞èÁªÑÊàêÂëòÔºö"
+           DW 0A2B0H, 0C0EEH, 0C8F4H, 0C9ADH, 0A2B0H, 0A2B0H, 0A2B0H, 0A2B0H                     ; "ÊùéËã•Ê£Æ"
+           DW 0A2B0H, 0C9DBH, 0E6C2H, 0A2B0H, 0A2B0H, 0A2B0H, 0A2B0H, 0A2B0H                     ; "ÈÇµÂ™õ"
+           DW 0A2B0H, 0CBCEH, 0CAC0H, 0C6BDH, 0A2B0H, 0A2B0H, 0A2B0H, 0A2B0H, '$'                ; "ÂÆã‰∏ñÂπ≥"
+LCD_TABLE2 DW 0D1A7H, 0BAC5H, 0A1C3H, 0A2B0H, 0A2B0H, 0A2B0H, 0A2B0H, 0A2B0H                     ; "Â≠¶Âè∑Ôºö"
            DW 0A3B1H, 0A3B3H, 0A3B2H, 0A3B8H, 0A3B1H, 0A3B1H, 0A3B3H, 0A3B2H                     ; "13281132"
            DW 0A3B1H, 0A3B3H, 0A3B2H, 0A3B8H, 0A3B1H, 0A3B1H, 0A3B3H, 0A3B9H                     ; "13281139"
            DW 0A3B1H, 0A3B3H, 0A3B2H, 0A3B8H, 0A3B1H, 0A3B0H, 0A3B3H, 0A3B7H, '$'                ; "13281037"
